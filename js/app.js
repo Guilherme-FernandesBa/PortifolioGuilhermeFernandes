@@ -25,6 +25,7 @@ const github = document.getElementById("github");
 
 
 
+
 window.addEventListener("scroll", () => {
     activeLink();
     if(!skillsPlayed) skillCounter()
