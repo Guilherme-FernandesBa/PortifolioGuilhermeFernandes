@@ -22,7 +22,7 @@ const links = document.querySelectorAll(".nav-link");
 const toggle_btn = document.querySelector(".toggle-btn");
 
 const github = document.getElementById("github");
-var mixitup = require('mixitup');
+
 
 
 window.addEventListener("scroll", () => {
