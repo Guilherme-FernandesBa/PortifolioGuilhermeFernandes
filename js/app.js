@@ -1,4 +1,4 @@
-import mixitup from 'mixitup'
+
 const header = document.querySelector("header");
 
 const first_skill= document.querySelector(".skill:first-child");
