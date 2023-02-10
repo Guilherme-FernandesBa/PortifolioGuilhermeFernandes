@@ -193,7 +193,7 @@ let firstTheme = localStorage.getItem("dark");
 
 changeTheme(+firstTheme)
 function  changeTheme(isdark){
-    let link =["/assets/Github.png", "/assets/gitdark.png"]
+    let link =["assets/Github.png", "assets/gitdark.png"]
     if(isdark){
         document.body.classList.add( "dark")
         toggle_btn.classList.replace("uil-moon", "uil-sun")
