@@ -87,7 +87,7 @@ function skillCounter(){
     
 
 }
-let link = ["/assets/Real.png" , "/assets/Eu.png"]
+let link = ["./assets/Real.png" , "./assets/Eu.png"]
 setInterval(function(){
     let random = Math.floor(Math.random() *2);
     foto.src = link[random]
